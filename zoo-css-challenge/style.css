@@ -1,5 +1,6 @@
 * {
   font-family: sans-serif;
+  letter-spacing: 1px;
 }
 
 header {
@@ -7,6 +8,10 @@ header {
   color: #ffffff;
   width: 100%;
   padding: 20px;
+}
+
+#logo {
+  border: none;
 }
 
 nav {
@@ -76,6 +81,7 @@ footer {
 }
 
 .introduction {
+  background-color: white;
 }
 
 #badge {
