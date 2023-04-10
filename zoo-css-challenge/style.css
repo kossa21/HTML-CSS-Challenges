@@ -114,8 +114,16 @@ footer {
   border: 5px solid #747c92;
 }
 
-.image-container img:first-of-type {
-  vertical-align: bottom;
+.image-container img:nth-child(1) {
+  border-color: yellow;
+}
+
+.image-container img:nth-child(2) {
+  border-color: green;
+}
+
+.image-container img:nth-child(3) {
+  border-color: purple;
 }
 
 .tigers {
